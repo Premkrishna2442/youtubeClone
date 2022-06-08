@@ -14,8 +14,8 @@ class Home extends Component {
   onTermSubmit = async (term) => {
     const response = await youtube.get("/search", {
       params: {
-        q: term,
-        maxResults: 10,
+        q: term
+        
       },
     });
  console.log(response)

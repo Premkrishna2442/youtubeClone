@@ -1,9 +1,23 @@
-.video-item {
-    display: flex !important;
-    align-items: center !important;
-    cursor: pointer;
-  }
-  
-  .video-item.item img {
-    max-width: 180px;
-  }
+.video-item{
+  display: flex !important;
+  align-items: flex-start !important;
+  cursor: pointer;
+  background-color: #202020;
+  color: white;
+  padding: 10px;
+  border-bottom: solid;
+  border-color: #373737;
+  margin-right: 30px;
+  /* width: 500px; */
+}
+
+.video-item.item img {
+  max-width: 300px;
+  margin-right: 20px;
+}
+.content {
+  margin-top: 30px;
+}
+.header {
+  font-size: large;
+}

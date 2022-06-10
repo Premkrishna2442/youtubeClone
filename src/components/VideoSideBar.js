@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import VideoItem from "./VideoItem";
+import VideoSidebarItem from "./VideoSidebarItem";
 
-const VideoList = ({ videos, term, page }) => {
-  
+const VideoSideBar = ({ videos, term, page }) => {
+
   // const [pages, setpages] = useState(0);
 
   const renderedList = videos
@@ -17,7 +18,7 @@ const VideoList = ({ videos, term, page }) => {
     .map((video) => {
       return (
         <div className="innervideoList">
-          <VideoItem key={video.id.videoId} videos={videos} video={video} />
+          <VideoSidebarItem key={video.id.videoId} videos={videos} video={video} />
         </div>
       );
     });
@@ -25,4 +26,4 @@ const VideoList = ({ videos, term, page }) => {
   return <div className="renderlist">{renderedList}</div>;
 };
 
-export default VideoList;
+export default VideoSideBar;

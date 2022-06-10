@@ -11,3 +11,121 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.youtubeHeader{
+  position:static;
+  width: 100%;
+  background-color: #202020 ; 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  border: solid;
+  border-color: #373737;
+  
+}
+.searchBox{
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchInput{
+  background-color:#121212;
+  border-color:#303030;
+  height: 30px;
+  width: 500px;
+  color: rgb(190, 184, 184);
+}
+.videoList{
+  background-color: #181818;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+.iframe{
+  width: 700px;
+  height: 400px;
+  position: sticky;
+
+}
+.description{
+ 
+  background-color:#303030  ;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.channel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login{
+  width: 50%;
+  height: 50%;
+  margin-left: 10px;
+}
+.nopage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.bottomDes{
+  display: flex;
+  flex-direction: column;
+  position: static;
+  margin-right: 10px;
+  
+}
+.video-item-side{
+  display: flex !important;
+  align-items: flex-start !important;
+  cursor: pointer;
+  background-color: #202020;
+  color: white;
+  padding: 10px;
+  border-bottom: solid;
+  border-color: #373737;
+  margin-right: 30px;
+  width: 500px;
+}
+.video-item-side.item img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+.sidecontent{
+  margin-top: 5px ;
+}
+.USER_PHOTO{
+  border-radius: 50%;
+  width: 30px;
+  height: 35px;
+  margin-right:10px ;
+}
+.loginDetails{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.userName{
+  color: aliceblue;
+  margin-right: 10px;
+}
+
+.logout{
+  margin-right: 10px;
+  width:120px;
+  height: 40px;
+}
+.descriptionItem{
+  color:#424040
+}
